@@ -1,4 +1,5 @@
-// LandingPage.jsx
+import "../iconLibrary";
+
 const LandingPage = () => {
   return (
     <main>

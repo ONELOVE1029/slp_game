@@ -4,6 +4,7 @@ import img3 from "../img/img (3).jpg";
 import img4 from "../img/img (4).jpg";
 import img5 from "../img/img (5).jpg";
 import img6 from "../img/img (6).jpg";
+import "../iconLibrary";
 
 const BodyPage = () => {
   return (

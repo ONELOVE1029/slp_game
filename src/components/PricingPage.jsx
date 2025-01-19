@@ -1,3 +1,5 @@
+import "../iconLibrary";
+
 const PricingPage = () => {
   return (
     <main>

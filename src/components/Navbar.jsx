@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../iconLibrary";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
+import MaterialPage from "./components/MaterialPage";
 import BodyPage from "./components/BodyPage";
 import PricingPage from "./components/PricingPage";
 import Footer from "./components/Footer";
@@ -14,6 +15,7 @@ function App() {
 
       <main className="flex-grow">
         <LandingPage />
+        <MaterialPage />
         <BodyPage />
         <PricingPage />
       </main>
