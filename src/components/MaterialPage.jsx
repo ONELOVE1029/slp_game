@@ -1,4 +1,12 @@
-import { FaBook, FaChalkboardTeacher, FaLaptopCode } from "react-icons/fa";
+import {
+  FaBook,
+  FaChalkboardTeacher,
+  FaLaptopCode,
+  FaImages,
+  FaLaptop,
+  FaStar,
+  FaLightbulb
+} from "react-icons/fa";
 
 const MaterialPage = () => {
   return (
@@ -39,11 +47,52 @@ const MaterialPage = () => {
             <div className="p-6 bg-gray-100 shadow-md rounded-lg">
               {/* Icon for Coding Exercises */}
               <div className="w-16 h-16 text-blue-500 mx-auto mb-4 bg-gray-300 flex items-center justify-center">
-                <FaLaptopCode className="text-2xl" />
+                <FaImages className="text-2xl" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Coding Exercises</h3>
+              <h3 className="text-xl font-semibold mb-2">Real Life Images</h3>
               <p className="text-gray-600">
-                Practice coding with our interactive exercises.
+                All of our materials contain real life images!.
+              </p>
+            </div>
+            <div className="p-6 bg-gray-100 shadow-md rounded-lg">
+              {/* Icon for Coding Exercises */}
+              <div className="w-16 h-16 text-blue-500 mx-auto mb-4 bg-gray-300 flex items-center justify-center">
+                <FaLaptop className="text-2xl" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">
+                Animated and Interactive Online Games
+              </h3>
+              <p className="text-gray-600">
+                Online animated and interactive games with 500+ built-in card
+                decks to target any goal and 30,000+ flash cards! Target every
+                goal including articulation, language, and social communication
+                for all ages (preschool through high school).!.
+              </p>
+            </div>
+            <div className="p-6 bg-gray-100 shadow-md rounded-lg">
+              {/* Icon for Coding Exercises */}
+              <div className="w-16 h-16 text-blue-500 mx-auto mb-4 bg-gray-300 flex items-center justify-center">
+                <FaStar className="text-2xl" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">
+                Materials for Every Therapy Target
+              </h3>
+              <p className="text-gray-600">
+                We have materials to target every goal for your students. From
+                articulation of every speech sound in every word position to
+                conversational turn-taking and so much more!
+              </p>
+            </div>
+            <div className="p-6 bg-gray-100 shadow-md rounded-lg">
+              {/* Icon for Coding Exercises */}
+              <div className="w-16 h-16 text-blue-500 mx-auto mb-4 bg-gray-300 flex items-center justify-center">
+                <FaLightbulb className="text-2xl" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">
+              New Materials Added
+              </h3>
+              <p className="text-gray-600">
+              We continue to add new materials to our materials library every day!
               </p>
             </div>
           </div>
