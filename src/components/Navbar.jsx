@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-600">
-          <a href="/">Ultimate SLP</a>
+          <a href="/">Come play speech! </a>
         </div>
 
         {/* Desktop Links */}
