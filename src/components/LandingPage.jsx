@@ -7,11 +7,11 @@ const LandingPage = () => {
       <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-16 h-screen flex items-center">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Welcome to Ultimate SLP!
+            This is a place to improve speech sound skills with engaging games. 
           </h1>
           <p className="text-lg md:text-2xl mb-6">
-            Empowering speech and language professionals with tools that make a
-            difference.
+            
+            Developed by a pediatric speech-language pathologist, this website was designed specifically for children with speech and language delays and disorders, helps individuals reach their goals faster, while having fun!
           </p>
           <div className="space-x-4">
             <a
